@@ -1,7 +1,7 @@
 <?php
 
     //echo "yes";
-    $con = new mysqli('165.22.4.105','root','LionS7810M','mathgame'); //on server so never seen by user
+    $con = new mysqli('165.22.4.105','root','****','mathgame'); //on server so never seen by user
 
     //check that connection happened
     if($con->connect_error){
